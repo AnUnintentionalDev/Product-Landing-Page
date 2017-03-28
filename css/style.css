@@ -1,0 +1,38 @@
+body{ background: #fff;}
+
+h1{ font-size: 3.75em;}
+h2{ font-size: 3.25em;}
+
+#main{ margin-top: 70px;}
+
+#nav-bar{ background: #363636;}
+#nav-bar .nav-link{ color: #ddd; font-size: 1.2em; margin-left: 1em;}
+#nav-bar .nav-item .nav-link.active{ border-bottom: 2px solid #fff; color: #fff;}
+
+#header-img{ width: 100px;}
+
+.get-quotation{ padding: 2em 0; background: #fff;}
+
+#why-us{ padding: 1em 0; background: #ebebeb;}
+.section-title{ padding: 1.5em 0 0.5em 0; position: relative;}
+
+#live-experience{ padding: 1em 0; background: #f1f1f1;}
+
+#packages{ padding: 1em 0;background: #e1e1e1;}
+#packages .package-wrapper{ width: 25em; height: 25em; border-radius: 50%; padding: 1em; display: flex; flex-direction: column; justify-content: center; background: #f79521; color: #fff; margin: 0 auto; transition: all ease-in 0.3s;}
+#packages .package-wrapper img{ transition: all ease-in 0.3s;}
+#packages .package-wrapper:hover{ background: #fff; color: #666; box-shadow: 1px 2px 1px 1px rgba(0,0,0,0.4);}
+#packages .package-wrapper:hover img{ transform: scale(0.7);}
+
+#contact-us{  padding: 1em 0;background: #fff;}
+#contact-us p{ padding: 0 6em;}
+
+#footer{ padding: 1.5em; background: #4378BC; color: #fff;}
+
+@media screen and (max-width: 991px){
+  
+  #packages .package-wrapper{ width: 20em; height: 20em; padding: 2em; margin-bottom: 1em;}
+  
+  #contact-us p{ padding: 0 2em;}
+  
+}
